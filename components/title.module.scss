@@ -1,0 +1,37 @@
+.container {
+	align-self: flex-end;
+	border: 1px solid #666;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	height: 6rem;
+	max-width: 100%;
+	position: relative;
+	width: 500px;
+}
+
+.title {
+	color: #fff;
+	font-size: 1.5rem;
+	letter-spacing: 1px;;
+	margin: 1rem 0 .2rem;
+	padding: 0 1rem;
+	text-transform: uppercase;
+}
+
+.date {
+	color: #fff;
+	font-size: .7rem;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin: .25rem 0;
+	padding: 0 1rem;
+	text-transform: uppercase;
+}
+
+.hr {
+	background: #666;
+	border: 0;
+	height: 1px;
+	width: 100%;
+}

@@ -1,4 +1,4 @@
-.Layout {
+.layout {
 	background: #202020;
 	background-size: 40px 40px;
 	background-image: radial-gradient(circle, #666 1px, rgba(0, 0, 0, 0) 1px);
@@ -6,7 +6,45 @@
 	width: 100vw;
 }
 
-.LayoutMain {
+.layoutMain {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
 	height: inherit;
+	padding: 2rem;
+	position: relative;
 	width: inherit;
+}
+
+.legend {
+	border: 1px solid #666;
+	border-radius: 5px;
+	margin: 2rem;
+	padding: 0;
+	position: fixed;
+	z-index: 10;
+
+	a {
+		color: #fff;
+		display: inline-block;
+		font-size: .8rem;
+		letter-spacing: 1px;
+		padding: 1rem;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:hover {
+			color:rgb(247, 232, 22)
+		}
+	}
+}
+
+.legendHeader {
+	color: #fff;
+	font-size: .9rem;
+	border-bottom: 1px solid #666;
+	letter-spacing: 1px;;
+	margin: 0;
+	padding: 1rem;
+	text-transform: uppercase;
 }

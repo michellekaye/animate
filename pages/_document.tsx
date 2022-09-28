@@ -6,7 +6,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
 					<meta charSet="utf-8" />
-					<title>MK Animations</title>
+					<title>MK Animates</title>
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
 					<link rel="preconnect" href="https://fonts.gstatic.com" />
 					<link 
