@@ -17,7 +17,7 @@ export default function Basketball() {
 				</div>
 			</Canvas>
 
-			<Title title="Basketball bounce" date="Septembers 27, 2022"/>
+			<Title title="Basketball bounce" date="September 27, 2022"/>
 		</>
 	)
 }

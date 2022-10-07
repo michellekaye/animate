@@ -8,7 +8,6 @@ export default function Layout({ children }: any) {
 				<h3 className={styles.legendHeader}>Projects</h3>
 				<ul className={styles.legendList}>
 					<li><Link href="/projects/basketball">Basketball</Link></li>
-					<li><Link href="/projects/bicycle">Bicycle</Link></li>
 				</ul>
 			</div>
 

@@ -8,7 +8,7 @@ export default function Bicycle() {
 			<Canvas>
 			</Canvas>
 
-			<Title title="Bicycle Ride" date="Septembers 28, 2022"/>
+			<Title title="Bicycle Ride" date="September 28, 2022"/>
 		</>
 	)
 }
